@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dec6b2d0-5df1-4571-99cb-6ccdf152c070" name="k8s1">
+        <fileTransfer rootFolder="/code/go/src/redis_demo" accessType="SFTP" host="192.168.18.200" port="22" sshConfigId="90ccdb33-5fe8-423c-a419-7092670ea479" sshConfig="root@192.168.18.200:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

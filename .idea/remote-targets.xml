@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="root@192.168.18.200:22" type="ssh/sftp" uuid="d0d4af88-0087-43b4-9f23-965d00de1292">
+        <config>
+          <option name="projectRootOnTarget" value="/root/crd-redis" />
+          <option name="serverName" value="root@192.168.18.200:22 agent" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/code/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.19.7 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
